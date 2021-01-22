@@ -51,3 +51,36 @@ nav ul li a {
   color: seashell;
   margin-left: 20px;
 }
+
+/* Spacer */
+.spacer {
+  height: 69px;
+}
+
+/* Hero */
+
+.hero {
+  height: 700px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(/images/img-mission-background.webp);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  background: black;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.hero-text h2 {
+  margin: 10px 0 20px;
+}
+
+.hero-text h4 {
+  margin: 10px 0;
+}
+
