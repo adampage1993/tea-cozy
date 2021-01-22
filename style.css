@@ -91,7 +91,6 @@ nav ul li a {
 .main {
   margin: 0 auto 50px;
   max-width: 1000px;
-  height: 400px;
 }
 
 .main h2 {
@@ -116,4 +115,44 @@ nav ul li a {
 .main .main-content-2 {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* Locations */
+
+.locations {
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image: url(/images/img-locations-background.webp);
+  background-position: center;
+}
+
+.locations .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locations h2 {
+  margin: 50px 0 15px;
+}
+
+.locations .location-areas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.locations .location {
+  background: black;
+  width: 300px;
+  height: 240px;
+}
+
+.locations .location h4 {
+  padding: 15px;
+}
+
+.locations .location p {
+  padding: 15px;
 }
