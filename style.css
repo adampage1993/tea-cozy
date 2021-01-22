@@ -26,6 +26,7 @@ nav {
   width: 100%;
   position: fixed;
   z-index: 999;
+  background: black;
 }
 
 nav .wrapper {
@@ -62,12 +63,13 @@ nav ul li a {
 .hero {
   height: 700px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
   background-image: url(/images/img-mission-background.webp);
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .hero-text {
@@ -84,3 +86,34 @@ nav ul li a {
   margin: 10px 0;
 }
 
+/* Main */
+
+.main {
+  margin: 0 auto 50px;
+  max-width: 1000px;
+  height: 400px;
+}
+
+.main h2 {
+  margin-bottom: 25px;
+}
+
+.main h4 {
+  margin-bottom: 25px;
+}
+
+.main .main-content-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main img{
+  max-width: 300px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.main .main-content-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
