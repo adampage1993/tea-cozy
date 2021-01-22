@@ -12,3 +12,42 @@ body {
   color: seashell;
   text-align: center;
 }
+
+.wrapper {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+/* NAV */
+
+nav {
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+
+nav .wrapper {
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: seashell;
+  margin-left: 20px;
+}
